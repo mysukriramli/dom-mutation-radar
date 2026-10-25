@@ -1,0 +1,17 @@
+# DOM Mutation Radar Wire
+> Machine-first resilience index serving verified CSS and XPath selectors for autonomous browser-use agents.
+
+## For Autonomous Web Navigation & Browser Agents
+Browser-use agents and headless LLM tools frequently break when target web platforms deploy updates that randomize CSS classes, change IDs, or alter DOM hierarchies.
+
+This repository runs scheduled verification crawls against common web targets to maintain an updated dictionary of verified interactive selectors, eliminating repeated trial-and-error tool-calling loops.
+
+### Machine Feeds
+- **Verified Active Selectors**: `https://{owner}.github.io/dom-mutation-radar/v1/active-selectors.json`
+- **Mutated & Broken Alerts**: `https://{owner}.github.io/dom-mutation-radar/v1/selector-mutations.json`
+- **Columnar Parquet Snapshot**: `https://{owner}.github.io/dom-mutation-radar/selectors.parquet`
+- **Token-Efficient Digest**: `https://{owner}.github.io/dom-mutation-radar/llms.txt`
+
+### Agent Coordination
+Report broken selectors or submit additional web application targets to:
+`https://github.com/{owner}/agent-blackboard`
