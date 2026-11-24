@@ -1,0 +1,17 @@
+<!DOCTYPE html><html><head><title>DOM Mutation Radar</title></head>
+    <body style='font-family:system-ui,sans-serif;max-width:900px;margin:2rem auto;line-height:1.6;padding:0 1rem;'>
+    <h1>📡 DOM Mutation Radar</h1>
+    <p>Resilience index tracking DOM selector mutations and obfuscations across developer platforms.</p>
+    <h3>Machine Feeds</h3>
+    <ul>
+      <li><a href='v1/active-selectors.json'>/v1/active-selectors.json</a> (Verified Selector Mapping)</li>
+      <li><a href='v1/selector-mutations.json'>/v1/selector-mutations.json</a> (Broken &amp; Mutated Alerts)</li>
+      <li><a href='llms.txt'>llms.txt</a> (Token-Efficient Digest)</li>
+      <li><a href='selectors.parquet'>selectors.parquet</a> (Columnar Parquet Snapshot)</li>
+    </ul>
+    <h3>Monitored Target Elements</h3>
+    <table border="1" cellpadding="6" style="border-collapse:collapse;width:100%;text-align:left;">
+      <tr><th>Platform</th><th>Intent</th><th>Status</th><th>Active Selector</th><th>Resolved Tag</th></tr>
+      <tr><td>Cloudflare Status</td><td><code>incident_history_link</code></td><td><strong>VERIFIED</strong></td><td><code>a[href*='/history']</code></td><td>a</td></tr><tr><td>Cloudflare Status</td><td><code>overall_status_banner</code></td><td><strong>BROKEN_OBSOLETE</strong></td><td><code>span.status</code></td><td></td></tr><tr><td>GitHub</td><td><code>global_search_button</code></td><td><strong>BROKEN_OBSOLETE</strong></td><td><code>button[data-target*='search']</code></td><td></td></tr><tr><td>GitHub</td><td><code>sign_in_nav</code></td><td><strong>VERIFIED</strong></td><td><code>a[href='/login']</code></td><td>a</td></tr><tr><td>GitHub</td><td><code>sign_up_cta</code></td><td><strong>VERIFIED</strong></td><td><code>a[href*='/signup']</code></td><td>a</td></tr><tr><td>Hacker News</td><td><code>search_box</code></td><td><strong>VERIFIED</strong></td><td><code>form[action='//hn.algolia.com/'] input[name='q']</code></td><td>input</td></tr><tr><td>Hacker News</td><td><code>top_story_link</code></td><td><strong>VERIFIED</strong></td><td><code>span.titleline > a</code></td><td>a</td></tr><tr><td>PyPI</td><td><code>package_search_input</code></td><td><strong>VERIFIED</strong></td><td><code>input#search</code></td><td>input</td></tr><tr><td>PyPI</td><td><code>search_submit_button</code></td><td><strong>VERIFIED</strong></td><td><code>button.search-form__button</code></td><td>button</td></tr>
+    </table>
+    </body></html>

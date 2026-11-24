@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "updated_at": "2026-11-24T00:27:14.692241+00:00",
+    "mutations_detected": 2
+  },
+  "mutations": [
+    {
+      "target_id": "github_public",
+      "platform_name": "GitHub",
+      "element_intent": "global_search_button",
+      "primary_selector": "button.header-search-button",
+      "fallback_selector": "button[data-target*='search']",
+      "resolved_tag": "",
+      "resolved_classes": "",
+      "verification_status": "BROKEN_OBSOLETE",
+      "content_hash": "9a5fd9f4cfd6b3bd7389a930baf182db46536a798387f5981175c3e90ea360c5",
+      "last_verified_utc": "2026-10-25T15:52:24.429516+00:00"
+    },
+    {
+      "target_id": "cloudflare_status",
+      "platform_name": "Cloudflare Status",
+      "element_intent": "overall_status_banner",
+      "primary_selector": "div.page-status",
+      "fallback_selector": "span.status",
+      "resolved_tag": "",
+      "resolved_classes": "",
+      "verification_status": "BROKEN_OBSOLETE",
+      "content_hash": "a635100d521299646aee4fb9569ec886cf17e3b8287615c30387371add95e092",
+      "last_verified_utc": "2026-10-25T15:52:24.429516+00:00"
+    }
+  ]
+}

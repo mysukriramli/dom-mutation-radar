@@ -1,0 +1,116 @@
+{
+  "metadata": {
+    "updated_at": "2026-11-24T00:27:14.692241+00:00",
+    "count": 9
+  },
+  "selectors": [
+    {
+      "target_id": "cloudflare_status",
+      "platform_name": "Cloudflare Status",
+      "element_intent": "incident_history_link",
+      "primary_selector": "a[href*='/history']",
+      "fallback_selector": "footer a[href*='history']",
+      "resolved_tag": "a",
+      "resolved_classes": "relative z-2 flex items-center bg-transparent whitespace-nowrap focus:outline-none focus:ring-kumo-focus/50 focus-visible:ring-2 focus-visible:ring-kumo-brand cursor-pointer text-base my-0.5 hover:text-kumo-default aria-selected:text-kumo-default focus-visible:ring-inset px-2.5 rounded-md text-neutral-600 dark:text-neutral-400",
+      "verification_status": "VERIFIED",
+      "content_hash": "77a2d29e2974731a66a6f25def23352b2bf653cbc2a89bbde0fd46932d5b1c9b",
+      "last_verified_utc": "2026-11-05T06:44:44.104071+00:00"
+    },
+    {
+      "target_id": "cloudflare_status",
+      "platform_name": "Cloudflare Status",
+      "element_intent": "overall_status_banner",
+      "primary_selector": "div.page-status",
+      "fallback_selector": "span.status",
+      "resolved_tag": "",
+      "resolved_classes": "",
+      "verification_status": "BROKEN_OBSOLETE",
+      "content_hash": "a635100d521299646aee4fb9569ec886cf17e3b8287615c30387371add95e092",
+      "last_verified_utc": "2026-10-25T15:52:24.429516+00:00"
+    },
+    {
+      "target_id": "github_public",
+      "platform_name": "GitHub",
+      "element_intent": "global_search_button",
+      "primary_selector": "button.header-search-button",
+      "fallback_selector": "button[data-target*='search']",
+      "resolved_tag": "",
+      "resolved_classes": "",
+      "verification_status": "BROKEN_OBSOLETE",
+      "content_hash": "9a5fd9f4cfd6b3bd7389a930baf182db46536a798387f5981175c3e90ea360c5",
+      "last_verified_utc": "2026-10-25T15:52:24.429516+00:00"
+    },
+    {
+      "target_id": "github_public",
+      "platform_name": "GitHub",
+      "element_intent": "sign_in_nav",
+      "primary_selector": "a[href='/login']",
+      "fallback_selector": "header a[href*='login']",
+      "resolved_tag": "a",
+      "resolved_classes": "Primer_Brand__Button-module__Button___scH9Z Primer_Brand__Button-module__Button--subtle___F7pEE Primer_Brand__Button-module__Button--size-small___zQrEw cta__xkenoh",
+      "verification_status": "VERIFIED",
+      "content_hash": "2692d8b9c383ba6b78ce2a487a45e69ad928f4be5aafb485ab73203e7b9960a7",
+      "last_verified_utc": "2026-10-25T15:52:24.429516+00:00"
+    },
+    {
+      "target_id": "github_public",
+      "platform_name": "GitHub",
+      "element_intent": "sign_up_cta",
+      "primary_selector": "a[href*='/signup']",
+      "fallback_selector": "header a[href*='signup']",
+      "resolved_tag": "a",
+      "resolved_classes": "Primer_Brand__Button-module__Button___scH9Z Primer_Brand__Button-module__Button--primary___MSbnU Primer_Brand__Button-module__Button--size-small___zQrEw cta__xkenoh",
+      "verification_status": "VERIFIED",
+      "content_hash": "0384f01673757760b7a3e61f4b4d4153f8e8ad2644048003a7db03a59c022918",
+      "last_verified_utc": "2026-10-28T22:34:44.077461+00:00"
+    },
+    {
+      "target_id": "hacker_news",
+      "platform_name": "Hacker News",
+      "element_intent": "search_box",
+      "primary_selector": "form[action='//hn.algolia.com/'] input[name='q']",
+      "fallback_selector": "input[name='q']",
+      "resolved_tag": "input",
+      "resolved_classes": "",
+      "verification_status": "VERIFIED",
+      "content_hash": "0911a311ef9e9e4a163368407e9a7cb3783e2ec8f7bdedf70dd584d203850c6d",
+      "last_verified_utc": "2026-10-25T15:52:24.429516+00:00"
+    },
+    {
+      "target_id": "hacker_news",
+      "platform_name": "Hacker News",
+      "element_intent": "top_story_link",
+      "primary_selector": "span.titleline > a",
+      "fallback_selector": "td.title > span.titleline a",
+      "resolved_tag": "a",
+      "resolved_classes": "",
+      "verification_status": "VERIFIED",
+      "content_hash": "8d7232bbe7a049f2a2d8d5ae2aa92860a5f083f799bc7a9a73dc5b829a1ad304",
+      "last_verified_utc": "2026-10-25T15:52:24.429516+00:00"
+    },
+    {
+      "target_id": "pypi_registry",
+      "platform_name": "PyPI",
+      "element_intent": "package_search_input",
+      "primary_selector": "input#search",
+      "fallback_selector": "input[name='q']",
+      "resolved_tag": "input",
+      "resolved_classes": "search-form__search large-input",
+      "verification_status": "VERIFIED",
+      "content_hash": "0a001732584fd6ec054397bb4ef3c549ac937a4d11d97cd9734af8592da53eff",
+      "last_verified_utc": "2026-10-25T15:52:24.429516+00:00"
+    },
+    {
+      "target_id": "pypi_registry",
+      "platform_name": "PyPI",
+      "element_intent": "search_submit_button",
+      "primary_selector": "button.search-form__button",
+      "fallback_selector": "form.search-form button",
+      "resolved_tag": "button",
+      "resolved_classes": "search-form__button",
+      "verification_status": "VERIFIED",
+      "content_hash": "79af01aa1e4c14905c92de37c8f05763758f8808f0c0fdcf15353cb66e107eff",
+      "last_verified_utc": "2026-10-25T15:52:24.429516+00:00"
+    }
+  ]
+}

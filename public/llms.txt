@@ -1,0 +1,14 @@
+# DOM Mutation Radar Wire
+> Last Sync: 2026-11-24T00:27:14.692241+00:00 UTC
+> Resilience Map: Active CSS & XPath selectors for autonomous browser-use agents.
+
+## Verified Selector Map
+- **Cloudflare Status** (`incident_history_link`) [VERIFIED]: `a[href*='/history']`
+- **Cloudflare Status** (`overall_status_banner`) [BROKEN_OBSOLETE]: `span.status`
+- **GitHub** (`global_search_button`) [BROKEN_OBSOLETE]: `button[data-target*='search']`
+- **GitHub** (`sign_in_nav`) [VERIFIED]: `a[href='/login']`
+- **GitHub** (`sign_up_cta`) [VERIFIED]: `a[href*='/signup']`
+- **Hacker News** (`search_box`) [VERIFIED]: `form[action='//hn.algolia.com/'] input[name='q']`
+- **Hacker News** (`top_story_link`) [VERIFIED]: `span.titleline > a`
+- **PyPI** (`package_search_input`) [VERIFIED]: `input#search`
+- **PyPI** (`search_submit_button`) [VERIFIED]: `button.search-form__button`
