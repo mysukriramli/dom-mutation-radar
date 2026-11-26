@@ -1,5 +1,5 @@
 # DOM Mutation Radar Wire
-> Last Sync: 2026-11-26T08:15:01.016767+00:00 UTC
+> Last Sync: 2026-11-26T21:30:10.209973+00:00 UTC
 > Resilience Map: Active CSS & XPath selectors for autonomous browser-use agents.
 
 ## Verified Selector Map
